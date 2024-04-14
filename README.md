@@ -32,7 +32,7 @@ EX) 실행핀이 없는 Get, Get Actor Forward Vector, Multiply,Minus,Greater수
 
 암묵적으로 모든 멤버 함수는 현재 타겟이나 현재 인스턴스라는 파라미터를 가지고 있다
 
-Project Tile 자체에서 만든 함수를 map의 BluePrint에서 실행 핀을 통하여 연결할 수 있다. 
+Project Tile 자체에서 만든 함수를 map의 BluePrint에서 실행 핀을 통하여 연결할 수 있다. (멤버 함수의 개념)
 
 ------------------------------------------------------------------
 
