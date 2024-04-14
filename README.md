@@ -3,6 +3,9 @@
 ## 가끔은 껏다키면 해결 되는게 있다...
 
 
+![어떻게 돌아가는지](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/b9c39707-07d6-4cf7-81dd-da71b37da42b)
+
+
 ### 블루프린트
 블루프린트에 create reference는 그 물체의 주소를 저장하는거임
 파란색 핀은 실행 핀(excution pin)임
