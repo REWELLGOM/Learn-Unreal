@@ -2,7 +2,11 @@
 
 ## 가끔은 껏다키면 해결 되는게 있다...
 
+## C++
+블루포인트에 표시하게하는 방법으로 UPROPERTY()가 있다.
 
+int32는 32비트인 정수를 나타낸것이
+  
 ![어떻게 돌아가는지](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/b9c39707-07d6-4cf7-81dd-da71b37da42b)
 
 
