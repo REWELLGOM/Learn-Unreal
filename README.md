@@ -8,6 +8,8 @@
 
 int32는 32비트인 정수를 나타낸것이다
 
+Tick 함수 매프레임마다 호출해줌
+
 ## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌
 ![어떻게 돌아가는지](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/b9c39707-07d6-4cf7-81dd-da71b37da42b)
 
