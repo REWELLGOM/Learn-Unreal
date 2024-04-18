@@ -2,7 +2,7 @@
 
 ## 가끔은 껏다키면 해결 되는게 있다...
 
-## C++
+# C++
 블루포인트에 표시하게하는 방법으로 변수위에 UPROPERTY(EditAnywhere)를 작성
 헤더파일에 작성했던 그 변수들이 객체의 디테일에 담겨서 나옴
 
@@ -10,11 +10,15 @@ int32는 32비트인 정수를 나타낸것이다
 
 Tick 함수 매프레임마다 호출해줌
 
+Pseudocode(의사 코드): 알고리즘단계에서 일반적인 언어로 설명한것
+ 
+
+
 ## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌
 ![어떻게 돌아가는지](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/b9c39707-07d6-4cf7-81dd-da71b37da42b)
 
 
-### 블루프린트
+## 블루프린트
 블루프린트에 create reference는 그 물체의 주소를 저장하는거임
 파란색 핀은 실행 핀(excution pin)임
 
