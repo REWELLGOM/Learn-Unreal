@@ -14,6 +14,9 @@ Pseudocode(의사 코드): 알고리즘단계에서 일반적인 언어로 설�
 
 코드 작성전에 주석으로 미리 어떤걸 구현해야할지 써놓는게 좋다
 
+UPROPERTY(EditAnywhere)은 어디서든 볼수있고 편집할수이다는 것
+UPROPERTY(VisibleAnywhere)은 어디서나 볼수만 있다는 
+
 
 ## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌
 ![어떻게 돌아가는지](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/b9c39707-07d6-4cf7-81dd-da71b37da42b)
