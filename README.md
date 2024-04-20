@@ -25,6 +25,8 @@ GetSafeNormal()
 UPROPERTY(EditAnywhere)은 어디서든 볼수있고 편집할수이다는 것
 UPROPERTY(VisibleAnywhere)은 어디서나 볼수만 있다는 
 
+로그를 찍을때 string은 *를 붙어야지 사용 가능하다
+ex) UE_LOG(LogTemp, Display, TEXT("Here's My String: %s  %f"),*MyString, MoveDistance);
 
 ## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌
 ![어떻게 돌아가는지](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/b9c39707-07d6-4cf7-81dd-da71b37da42b)
