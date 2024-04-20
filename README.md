@@ -28,7 +28,7 @@ GetSafeNormal()
 UPROPERTY(EditAnywhere)은 어디서든 볼수있고 편집할수이다는 것
 UPROPERTY(VisibleAnywhere)은 어디서나 볼수만 있다는 
 
-### const
+### const(안정성 증가)
 값이 변하지 않는것에 사용함
 사용가능 여부는 마우스를 가져다두고 뜨는 창을보고 알수도 있다. 
 
