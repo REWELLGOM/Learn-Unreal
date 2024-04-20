@@ -1,6 +1,6 @@
 # Learn-Unreal
 
-## 가끔은 껏다키면 해결 되는게 있다...
+가끔은 껏다키면 해결 되는게 있다...
 
 # C++
 블루포인트에 표시하게하는 방법으로 변수위에 UPROPERTY(EditAnywhere)를 작성
@@ -13,8 +13,9 @@ Tick 함수 매프레임마다 호출해줌
 매프레임 log를 찍는다고해서 오류는 안남
 
 Pseudocode(의사 코드): 알고리즘단계에서 일반적인 언어로 설명한것
-
-FVector는  타입중 하나이다
+### 선언
+FVector는  벡터를 선언할때
+FString은 문자열을 선언할때
 
 코드 작성전에 주석으로 미리 어떤걸 구현해야할지 써놓는게 좋다
 
@@ -25,7 +26,9 @@ GetSafeNormal()
 UPROPERTY(EditAnywhere)은 어디서든 볼수있고 편집할수이다는 것
 UPROPERTY(VisibleAnywhere)은 어디서나 볼수만 있다는 
 
+### 로그
 로그를 찍을때 string은 *를 붙어야지 사용 가능하다
+display warning Error로 색깔을 다르게하여 경고와 에러를 잘보이게 할수있음
 ex) UE_LOG(LogTemp, Display, TEXT("Here's My String: %s  %f"),*MyString, MoveDistance);
 
 ## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌
