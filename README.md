@@ -22,9 +22,15 @@ FString은 문자열을 선언할때
 GetSafeNormal()
 주어진 벡터를 그 크기로 나누어 단위 벡터를 생성
 
-클래스 자체에서 함수를 가져올때 ::를 사
+클래스 자체에서 함수를 가져올때 ::를 사용
+
+### UPROPERTY
 UPROPERTY(EditAnywhere)은 어디서든 볼수있고 편집할수이다는 것
 UPROPERTY(VisibleAnywhere)은 어디서나 볼수만 있다는 
+
+### const
+값이 변하지 않는것에 사용함
+사용가능 여부는 마우스를 가져다두고 뜨는 창을보고 알수도 있다. 
 
 ### 로그
 로그를 찍을때 string은 *를 붙어야지 사용 가능하다
