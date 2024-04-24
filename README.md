@@ -110,5 +110,16 @@ skysphere안의 detail에 들어가서 서로 연결해주면 각도에 다른 �
 이때 사용할 메시를 찾을려면 (콘텐츠 드로어 -> show engine content -> engine파일 -> sky)
 씬 recapture라는 속성에 recapture를 누르면 씬의 조명이 업데이트됨
 
+조명BP를 사용할때 그 객체의 light에 들어가서 값을 설정할 수 있다.
+intensity는 밝기 조절
+attenuation 반경 설정(설정해서 성능에 도움을 줄수있음)
+
 meterial뒤에 있는 inst 진짜 메테리얼이 아니라는 뜻임
 우클릭 -> 부모찾기 -> master이라는 이름이 붙은 메테리얼이 나옴 이게 진짜 머티리얼을 만드는거
+
+detail의 mobility에 
+static으로 게임 시작전에 미리 조명 설정과 같은 작업을 마칠수있다
+Stationary로 객체를움직일 수는 없지만 밝기 같은 건 바꿀수 있다. 
+Movealbe로 모든 걸 변경할수있게 할수있다.
+
+### 루멘은 Moveable로 가장 잘 돌아간다
