@@ -131,5 +131,16 @@ Movealbe로 모든 걸 변경할수있게 할수있다.
 
 바닥이 있지만 떨어질때는 객체의 에디터를 켜서 왼쪽위 콜리전에서 시각화를 작동시키고 디테일에서 collison에서 z축 설정해준다 -10정도
 
+## Udemy Edition
+Inheritance(상속)
+하위 클래스가 상위 클래스의 모든 기능을 자동적으로 물려받는 것
+![예시](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/598176a6-c97a-481e-b9e9-d5899d34ef18)
 
-상속이란 하위 클래스가 상위 클래스의 모든 기능을 자동적으로 물려받는 
+
+
+Composiotion
+클래스 A가 클래스B의 인스턴스를 포함한다고 말할 수 있고 해당 기능을 사용할 수 있지만 클래스 B에 소속된 것이 아니라 원하는 부분만 선택해서 가져갈 수 있다 클래스 A가 클래스 B를 포함하는 것
+![예시](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/6a999470-c8e1-4202-8c58-134671232b79)
+
+![예시](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/1c6e35c5-797e-4399-9464-fe5577a7b2d8)
+
