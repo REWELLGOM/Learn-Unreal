@@ -11,6 +11,10 @@ ctrl + alt + f11 라이브코드 컴파일 단축키
 ### github desktop "the remote disconnected. check your internet connection and try again." 한번에 푸시하는 양이 많아서 그럼
 
 # C++
+
+일반적으로 포인터가 있는 경우 화살표 연산자
+FString FVector와 같은 구조체가 있는 경우 점 연산자 사용
+
 블루포인트에 표시하게하는 방법으로 변수위에 UPROPERTY(EditAnywhere)를 작성
 헤더파일에 작성했던 그 변수들이 객체의 디테일에 담겨서 나옴
 
