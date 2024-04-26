@@ -97,6 +97,12 @@ mesh를 더블 클릭하여 편집에 들어간후 콜리전을 삭제 시킬수
 
 미리보기 모드에서 오른쪽 상단에 격자무늬 아이콘을 누르면 4분할로된 각 방명에서의 맵의 구성을 볼수있다
 
+Actor Component
+모든 액터에 접근되는 기본적인 Component 이다
+
+Scene Component
+Transform이 있는 Actor Component이고 다른 Scene Component에도 접근할 수 있다
+
 ------------------------------------------------------------------------
 
 ### pointlight
