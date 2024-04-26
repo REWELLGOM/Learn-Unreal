@@ -8,6 +8,7 @@
 
 ### 캐릭터가 움직이지를 않음 (게임 모드 설정과 껏다 켰다를 하니 해결됨;;)
 ### 게임 시작시 프리징(tick코드안에 바로 반복문써서 과부하걸린거임)
+### github desktop "the remote disconnected. check your internet connection and try again." 한번에 푸시하는 양이 많아서 그럼
 
 # C++
 블루포인트에 표시하게하는 방법으로 변수위에 UPROPERTY(EditAnywhere)를 작성
