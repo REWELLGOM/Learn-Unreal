@@ -102,6 +102,7 @@ Actor Component
 
 Scene Component
 Transform이 있는 Actor Component이고 다른 Scene Component에도 접근할 수 있다
+서로 접근이 가능하다면 디테일에 같은 섹션에 있다.
 
 ------------------------------------------------------------------------
 
