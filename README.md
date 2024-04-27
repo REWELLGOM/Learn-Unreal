@@ -35,7 +35,9 @@ GetSafeNormal()
 주어진 벡터를 그 크기로 나누어 단위 벡터를 생성
 
 GetOwner()
-씬에서 다른 객체에 액세스할 수 있게 해주는 함수
+오너 포인터를 가져와주는 함수
+해당 Component를 소유한 Actor의 주소를 저장할때 사용함
+Component를 통해 Actor에게 사운드를 부여하거나 Actor의 위치를 파악하거나 설정하는 등의 작업을 수행하려면 포인터를 액터에 전달해야 함
 
 FVector::Distance(a,b)
 a와 b 사이의 거리를 구해준
