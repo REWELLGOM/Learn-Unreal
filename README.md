@@ -37,6 +37,9 @@ GetSafeNormal()
 GetOwner()
 씬에서 다른 객체에 액세스할 수 있게 해주는 함수
 
+FVector::Distance(a,b)
+a와 b 사이의 거리를 구해준
+
 클래스 자체에서 함수를 가져올때 ::를 사용
 
 ### UPROPERTY
