@@ -38,22 +38,32 @@ FString은 문자열을 선언할때
 
 코드 작성전에 주석으로 미리 어떤걸 구현해야할지 써놓는게 좋다
 
-GetSafeNormal()
+## GetSafeNormal()
 주어진 벡터를 그 크기로 나누어 단위 벡터를 생성
 
-GetOwner()
+## GetOwner()
 오너 포인터를 가져와주는 함수
 해당 Component를 소유한 Actor의 주소를 저장할때 사용함
 Component를 통해 Actor에게 사운드를 부여하거나 Actor의 위치를 파악하거나 설정하는 등의 작업을 수행하려면 포인터를 액터에 전달해야 함
 
-FVector::Distance(a,b)
+## FVector::Distance(a,b)
 a와 b 사이의 거리를 구해준
 
-클래스 자체에서 함수를 가져올때 ::를 사용
+## 클래스 자체에서 함수를 가져올때 ::를 사용
+
+## HitResult
+HitResult.Location 객체 중심으로의 1미터 반경의 구체를 건듦  
+HitResult.ImpactLocation 객체의 표면을 건듦
 
 ### UPROPERTY
 UPROPERTY(EditAnywhere)은 어디서든 볼수있고 편집할수이다는 것
 UPROPERTY(VisibleAnywhere)은 어디서나 볼수만 있다는 
+
+### DebugDraw
+DrawDebugLine(GetWorld(), Start, End, FColor::Red);
+시작점,끝점,색깔  
+DrawDebugSphere(GetWorld(), End, 10, 10, FColor::Blue,true, 5);
+구체의 중심, 반경, 조각갯수, 색깔, 지속방식(true = 한번만 호출, 지속시간 무), 지속시
 
 ### const(안정성 증가)
 값이 변하지 않는것에 사용함
