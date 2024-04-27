@@ -6,10 +6,10 @@ ctrl + alt + f11 라이브코드 컴파일 단축키
 
 # 오류리스트
 
-### 캐릭터가 움직이지를 않음 (게임 모드 설정과 껏다 켰다를 하니 해결됨;;)
-### 게임 시작시 프리징(tick코드안에 바로 반복문써서 과부하걸린거임)
-### github desktop "the remote disconnected. check your internet connection and try again." 한번에 푸시하는 양이 많아서 그럼
-### 만약 포인터에 null값이 들어갔다
+### 1.캐릭터가 움직이지를 않음 (게임 모드 설정과 껏다 켰다를 하니 해결됨;;)
+### 2.게임 시작시 프리징(tick코드안에 바로 반복문써서 과부하걸린거임)
+### 3.github desktop "the remote disconnected. check your internet connection and try again." 한번에 푸시하는 양이 많아서 그럼
+### 4.포인터에 null값이 들어갔다
 ![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/7689ee0d-be27-42f2-b502-ab894364a9c1)
 
 # C++
@@ -63,6 +63,9 @@ UPROPERTY(VisibleAnywhere)은 어디서나 볼수만 있다는
 로그를 찍을때 string은 *를 붙어야지 사용 가능하다
 display warning Error로 색깔을 다르게하여 경고와 에러를 잘보이게 할수있음
 ex) UE_LOG(LogTemp, Display, TEXT("Here's My String: %s  %f"),*MyString, MoveDistance);
+
+UPhysicsHandleComponent* PhysicsHandle = GetOwner() -> FindComponentByClass<UPhysicsHandleComponent>();
+컴포넌트에서 physicshandle컴포넌트에 접근하게하는 코드
 
 ## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌
 ![어떻게 돌아가는지](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/b9c39707-07d6-4cf7-81dd-da71b37da42b)
