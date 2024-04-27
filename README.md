@@ -9,14 +9,21 @@ ctrl + alt + f11 라이브코드 컴파일 단축키
 ### 캐릭터가 움직이지를 않음 (게임 모드 설정과 껏다 켰다를 하니 해결됨;;)
 ### 게임 시작시 프리징(tick코드안에 바로 반복문써서 과부하걸린거임)
 ### github desktop "the remote disconnected. check your internet connection and try again." 한번에 푸시하는 양이 많아서 그럼
+### 만약 포인터에 null값이 들어갔다
+![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/7689ee0d-be27-42f2-b502-ab894364a9c1)
 
 # C++
 
-일반적으로 포인터가 있는 경우 화살표 연산자
-FString FVector와 같은 구조체가 있는 경우 점 연산자 사용
+일반적으로 포인터가 있는 경우 화살표 연산자  
+FString FVector와 같은 구조체가 있는 경우 점 연산자 사용  
 
-블루포인트에 표시하게하는 방법으로 변수위에 UPROPERTY(EditAnywhere)를 작성
-헤더파일에 작성했던 그 변수들이 객체의 디테일에 담겨서 나옴
+변수위에 UPROPERTY()를 작성  
+EditAnywhere을 괄호안에 넣으면 어디서든 에디터에서 값을 변경할 수 있다는것  
+헤더파일에 작성했던 그 변수들이 객체의 디테일에 담겨서 나옴  
+
+함수위에 UFUNCTION()은 함수를 보이게하는 것
+BlueprintCallable 블루프린트에서 엑세스 할 수 있게 해줌
+이때 에디터와 라이브 코드를 끄고 vscode에서 별도로 빌드를 돌린후 파일에 들어가서 켜야함  
 
 int32는 32비트인 정수를 나타낸것이다
 
