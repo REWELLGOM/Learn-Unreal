@@ -61,7 +61,8 @@ Component를 통해 Actor에게 사운드를 부여하거나 Actor의 위치를 
 
 ## FVector::Distance(a,b)
 a와 b 사이의 거리를 구해준
-<details>
+</details>
+
 
 ## 클래스 자체에서 함수를 가져올때 ::를 사용
 
@@ -90,7 +91,7 @@ ex) UE_LOG(LogTemp, Display, TEXT("Here's My String: %s  %f"),*MyString, MoveDis
 
 UPhysicsHandleComponent* PhysicsHandle = GetOwner() -> FindComponentByClass<UPhysicsHandleComponent>();
 컴포넌트에서 physicshandle컴포넌트에 접근하게하는 코드
-<details>
+</details>
 
 <details>
 <summary><p>$\huge{\rm{\color{#6580DD}BLUE PRINT}}$</p></p> </summary>
@@ -129,7 +130,7 @@ Project Tile 자체에서 만든 함수를 map의 BluePrint에서 실행 핀을 
 
 플레이어 물리충돌을 처리하기위해 charactor movmnet로부터 두개의 moveupdatecomponent로 충돌 처리 그리고 캐릭터의 회전을 위해 get actor rotation을 만듦
 
-<details>
+</details>
 
 라인트레이스 
 선으로 탐지
