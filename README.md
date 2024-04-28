@@ -4,7 +4,7 @@ ctrl + alt + f11 라이브코드 컴파일 단축키
 
 라이브 코딩은 에디터를 껏다가 키면 초기화 되기때문에 에디터를 키기전에 vscode에서 crlt shift b 로 빌드작업 하고 에디터를 닫아놓은체로 전체를 컴파일해야함
 <details>
-<summary> # <p>$\huge{\rm{\color{#6580DD}ERROR LIST}}$</p> </summary>
+<summary><p>$\huge{\rm{\color{#6580DD}ERROR LIST}}$</p> </summary>
 
 
 ### 1.캐릭터가 움직이지를 않음 
