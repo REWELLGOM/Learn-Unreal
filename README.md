@@ -27,9 +27,8 @@ ctrl + alt + f11 라이브코드 컴파일 단축키
 <details>
 <summary><p>$\huge{\rm{\color{#6580DD}C++}}$</p></p> </summary>
 
-### Extra
-일반적으로 포인터가 있는 경우 화살표 연산자(->)  
-FString FVector와 같은 구조체가 있는 경우 점 연산자(.) 사용  
+### FCollisionShape Sphere = FCollisionShape::MakeSphere(GrabRadius);
+FHitResult HitResult;
 
 ### UPROPERTY
 변수위에 UPROPERTY()를 작성  
@@ -86,6 +85,11 @@ FPS게임이나 오브젝트를 잡을때
 이 오브젝트를 투시하도록 허용할지
 
 </details>
+
+### Extra
+일반적으로 포인터가 있는 경우 화살표 연산자(->)  
+FString FVector와 같은 구조체가 있는 경우 점 연산자(.) 사용  
+
 </details>
 
 
