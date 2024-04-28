@@ -3,20 +3,28 @@ ctrl + alt + f11 라이브코드 컴파일 단축키
 가끔은 껏다키면 해결 되는게 있다...
 
 라이브 코딩은 에디터를 껏다가 키면 초기화 되기때문에 에디터를 키기전에 vscode에서 crlt shift b 로 빌드작업 하고 에디터를 닫아놓은체로 전체를 컴파일해야함
+<details>
+<summary> # <p>$\huge{\rm{\color{#6580DD}ERROR LIST}}$</p> </summary>
 
-# <p>$\huge{\rm{\color{#6580DD}ERROR LIST}}$</p>
 
-### 1.캐릭터가 움직이지를 않음 (게임 모드 설정과 껏다 켰다를 하니 해결됨;;)
-### 2.게임 시작시 프리징(tick코드안에 바로 반복문써서 과부하걸린거임)
-### 3.github desktop "the remote disconnected. check your internet connection and try again." 한번에 푸시하는 양이 많아서 그럼
+### 1.캐릭터가 움직이지를 않음 
+해결: 게임 모드 설정과 껏다 켰다를 하니 해결됨
+### 2.게임 시작시 프리징  
+이유: tick코드안에 바로 반복문써서 과부하걸린거임
+### 3.github desktop "the remote disconnected. check your internet connection and try again." 
+이유: 한번에 푸시하는 양이 많아서 그럼  
 ### 4.포인터에 null값이 들어갔다
 ![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/7689ee0d-be27-42f2-b502-ab894364a9c1)
 ### 5. PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Grabber". Node:  Release Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter  
-Grabber'라는 속성에 접근하려 했으나 그 객체가 존재하지 않을 때 발생 삭제하고다시 추가해주니 해결되었다. 
-# <p>$\huge{\rm{\color{#6580DD}ERROR LIST}}$</p>
+이유: Grabber'라는 속성에 접근하려 했으나 그 객체가 존재하지 않을 때 발생 
+해결: 삭제하고다시 추가해주니 해결되었다. 
+</details>
 
-일반적으로 포인터가 있는 경우 화살표 연산자  
-FString FVector와 같은 구조체가 있는 경우 점 연산자 사용  
+# <p>$\huge{\rm{\color{#6580DD}C++}}$</p>
+
+### 
+일반적으로 포인터가 있는 경우 화살표 연산자(->)  
+FString FVector와 같은 구조체가 있는 경우 점 연산자(.) 사용  
 
 변수위에 UPROPERTY()를 작성  
 EditAnywhere을 괄호안에 넣으면 어디서든 에디터에서 값을 변경할 수 있다는것  
