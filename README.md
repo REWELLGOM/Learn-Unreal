@@ -13,7 +13,7 @@ ctrl + alt + f11 라이브코드 컴파일 단축키
 ![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/7689ee0d-be27-42f2-b502-ab894364a9c1)
 ### 5. PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Grabber". Node:  Release Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter  
 Grabber'라는 속성에 접근하려 했으나 그 객체가 존재하지 않을 때 발생 삭제하고다시 추가해주니 해결되었다. 
-# C++
+# <p>$\huge{\rm{\color{#6580DD}ERROR LIST}}$</p>
 
 일반적으로 포인터가 있는 경우 화살표 연산자  
 FString FVector와 같은 구조체가 있는 경우 점 연산자 사용  
