@@ -92,7 +92,9 @@ UPhysicsHandleComponent* PhysicsHandle = GetOwner() -> FindComponentByClass<UPhy
 컴포넌트에서 physicshandle컴포넌트에 접근하게하는 코드
 <details>
 
-## 블루프린트
+<details>
+<summary><p>$\huge{\rm{\color{#6580DD}BLUE PRINT}}$</p></p> </summary>
+
 블루프린트에 create reference는 그 물체의 주소를 저장하는거임
 파란색 핀은 실행 핀(excution pin)임
 
@@ -126,6 +128,8 @@ Project Tile 자체에서 만든 함수를 map의 BluePrint에서 실행 핀을 
 트랜스폼의 자물쇠를 누르면 값을 다같이 바꾸는걸로 설정할 수 있다.
 
 플레이어 물리충돌을 처리하기위해 charactor movmnet로부터 두개의 moveupdatecomponent로 충돌 처리 그리고 캐릭터의 회전을 위해 get actor rotation을 만듦
+
+<details>
 
 라인트레이스 
 선으로 탐지
