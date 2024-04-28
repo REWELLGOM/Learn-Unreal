@@ -1,8 +1,10 @@
-# Learn-Unreal
-ctrl + alt + f11 라이브코드 컴파일 단축키
-가끔은 껏다키면 해결 되는게 있다...
+ctrl + alt + f11 라이브코드 컴파일 단축키  
+가끔은 껏다키면 해결 되는게 있다...  
+## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌  
+![어떻게 돌아가는지](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/b9c39707-07d6-4cf7-81dd-da71b37da42b)  
 
-라이브 코딩은 에디터를 껏다가 키면 초기화 되기때문에 에디터를 키기전에 vscode에서 crlt shift b 로 빌드작업 하고 에디터를 닫아놓은체로 전체를 컴파일해야함
+라이브 코딩은 에디터를 껏다가 키면 초기화 되기때문에 에디터를 키기전에 vscode에서 crlt shift b 로 빌드작업 하고 에디터를 닫아놓은체로 전체를 컴파일해야함  
+
 <details>
 <summary><p>$\huge{\rm{\color{#6580DD}ERROR LIST}}$</p> </summary>
 
@@ -20,32 +22,34 @@ ctrl + alt + f11 라이브코드 컴파일 단축키
 해결: 삭제하고다시 추가해주니 해결되었다. 
 </details>
 
-# <p>$\huge{\rm{\color{#6580DD}C++}}$</p>
 
-### 
+<details>
+<summary><p>$\huge{\rm{\color{#6580DD}C++}}$</p></p> </summary>
+
+### Extra
 일반적으로 포인터가 있는 경우 화살표 연산자(->)  
 FString FVector와 같은 구조체가 있는 경우 점 연산자(.) 사용  
 
+### UPROPERTY
 변수위에 UPROPERTY()를 작성  
 EditAnywhere을 괄호안에 넣으면 어디서든 에디터에서 값을 변경할 수 있다는것  
 헤더파일에 작성했던 그 변수들이 객체의 디테일에 담겨서 나옴  
 
+### UFUNCTION
 함수위에 UFUNCTION()은 함수를 보이게하는 것
 BlueprintCallable 블루프린트에서 엑세스 할 수 있게 해줌
 이때 에디터와 라이브 코드를 끄고 vscode에서 별도로 빌드를 돌린후 파일에 들어가서 켜야함  
 
+### TYPE
 int32는 32비트인 정수를 나타낸것이다
-
-Tick 함수 매프레임마다 호출해줌
-올바르게 반복문을 만들었어도 tick함수 내에서 만든거라면 프리징 현상이 일어날 수 있으니 사용할때 극.구.조.심
-매프레임 log를 찍는다고해서 오류는 안남
-
-Pseudocode(의사 코드): 알고리즘단계에서 일반적인 언어로 설명한것
-### 선언
 FVector는  벡터를 선언할때
 FString은 문자열을 선언할때
 
-코드 작성전에 주석으로 미리 어떤걸 구현해야할지 써놓는게 좋다
+<details>
+<summary><p>$\huge{\rm{\color{#6580DD}ABOUT FUNCTION}}$</p></p> </summary>
+Tick()함수는 매프레임마다 호출해줌
+올바르게 반복문을 만들었어도 tick함수 내에서 만든거라면 프리징 현상이 일어날 수 있으니 사용할때 극.구.조.심
+매프레임 log를 찍는다고해서 오류는 안남
 
 ## GetSafeNormal()
 주어진 벡터를 그 크기로 나누어 단위 벡터를 생성
@@ -57,6 +61,7 @@ Component를 통해 Actor에게 사운드를 부여하거나 Actor의 위치를 
 
 ## FVector::Distance(a,b)
 a와 b 사이의 거리를 구해준
+<details>
 
 ## 클래스 자체에서 함수를 가져올때 ::를 사용
 
@@ -85,10 +90,7 @@ ex) UE_LOG(LogTemp, Display, TEXT("Here's My String: %s  %f"),*MyString, MoveDis
 
 UPhysicsHandleComponent* PhysicsHandle = GetOwner() -> FindComponentByClass<UPhysicsHandleComponent>();
 컴포넌트에서 physicshandle컴포넌트에 접근하게하는 코드
-
-## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌
-![어떻게 돌아가는지](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/b9c39707-07d6-4cf7-81dd-da71b37da42b)
-
+<details>
 
 ## 블루프린트
 블루프린트에 create reference는 그 물체의 주소를 저장하는거임
