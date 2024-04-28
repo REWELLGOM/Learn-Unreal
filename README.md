@@ -177,7 +177,7 @@ Transform이 있는 Actor Component이고 다른 Scene Component에도 접근할
 <summary><p>$\huge{\rm{\color{#6580DD}Unreal Editor}}$</p></p> </summary>
 
 <details>
-<summary><p>$\hugeLight</p> </summary>
+<summary><p>$\huge{Light}$</p> </summary>
   
 ### pointlight 
 그냥 한점에서 빛이 밖으로 나감 광원이 하나라는게 핵심
