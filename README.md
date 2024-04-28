@@ -1,6 +1,7 @@
 ctrl + alt + f11 라이브코드 컴파일 단축키  
 가끔은 껏다키면 해결 되는게 있다...  
 ## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌  
+
 ![어떻게 돌아가는지](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/b9c39707-07d6-4cf7-81dd-da71b37da42b)  
 
 라이브 코딩은 에디터를 껏다가 키면 초기화 되기때문에 에디터를 키기전에 vscode에서 crlt shift b 로 빌드작업 하고 에디터를 닫아놓은체로 전체를 컴파일해야함  
