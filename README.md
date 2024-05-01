@@ -1,4 +1,5 @@
 ctrl + alt + f11 라이브코드 컴파일 단축키  
+F11(몰입모드) -> 삼선 -> 캡쳐
 가끔은 껏다키면 해결 되는게 있다...  
 ## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌  
 
@@ -183,24 +184,41 @@ Transform이 있는 Actor Component이고 다른 Scene Component에도 접근할
 
 <details>
 <summary><p>$\huge{Light}$</p> </summary>
-  
+
+## static
+게임에서 빛에 관련된걸 바꿀수 없게함(성능향상에 도움)  
+
+## Stationay
+빛의 색과 강도 조절가능  
+위치와 회전은 불가능  
+
+## Movable
+움직이는 태양과 그림자 나타낼  
+
 ### pointlight 
-그냥 한점에서 빛이 밖으로 나감 광원이 하나라는게 핵심
+그냥 한점에서 빛이 밖으로 나감 광원이 하나라는게 핵심  
 
 ### SpotLight
-빛의 방향이 하나임 특정 영역이나 객체를 비출때 용이
+빛의 방향이 하나임 특정 영역이나 객체를 비출때 용이  
 
 ### RectLight
-빛이 한면 전체에서 나옴 넓은곳을 비출때 용이
+빛이 한면 전체에서 나옴 넓은곳을 비출때 용이  
 
 ### Directional Light 
-태양을 추가한다고 생각하면 편함
-skysphere안의 detail에 들어가서 서로 연결해주면 각도에 다른 하늘 변화를 만들수있음 
+태양을 추가한다고 생각하면 편함  
+skysphere안의 detail에 들어가서 서로 연결해주면 각도에 다른 하늘 변화를 만들수있음   
+ctrl + L로 태양위치 시각적으로 더 잘보이게 바꿀수있음  
 
 ### SkyLight
-레벨에서 멀리 떨어진 빛을 캡쳐해서 씬에 적용 우리 레벨 전체를 감싸는 구를 추가한다고 생각하면 됌 하늘같은
-이때 사용할 메시를 찾을려면 (콘텐츠 드로어 -> show engine content -> engine파일 -> sky)
-씬 recapture라는 속성에 recapture를 누르면 씬의 조명이 업데이트됨
+레벨에서 멀리 떨어진 빛을 캡쳐해서 씬에 적용 우리 레벨 전체를 감싸는 구를 추가한다고 생각하면 됌 하늘같은 거    
+이때 사용할 메시를 찾을려면 (콘텐츠 드로어 -> show engine content -> engine파일 -> sky)  
+씬 recapture라는 속성에 recapture를 누르면 씬의 조명이 업데이트됨  
+
+Tempeture로 태양의 색깔을 바꿀 수 있음  
+
+### Sky Atmosphere
+지구 같은 대기 생성
+다른 광원을 하나 더 만들수 있음(달 또는 두 번째 태양 생성)
 
 조명BP를 사용할때 그 객체의 light에 들어가서 값을 설정할 수 있다.
 intensity는 밝기 조절
