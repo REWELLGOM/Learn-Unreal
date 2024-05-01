@@ -188,8 +188,10 @@ Transform이 있는 Actor Component이고 다른 Scene Component에도 접근할
 <summary><p>$\huge{LandScpae Mode}$</p> </summary>
 
 ## Number of Components
-땅 크기 조
+땅 크기 조절  
 
+## Pint
+레이어의 +표시 눌러서 weightlender로 서로 겹칠때 혼합되게 할지 Non weightblender로 그위에 그냥 쌓이게 할지 정할수 있음  
 
 <details>
 <summary><p>$\huge{Light}$</p> </summary>
@@ -236,17 +238,35 @@ attenuation 반경 설정(설정해서 성능에 도움을 줄수있음)
 
 </details>
 
-meterial뒤에 있는 inst 진짜 메테리얼이 아니라는 뜻임
-우클릭 -> 부모찾기 -> master이라는 이름이 붙은 메테리얼이 나옴 이게 진짜 머티리얼을 만드는거
+<details>
+<summary><p>$\huge{Meterial}$</p> </summary>
+
+## 설정
+Fully rough는 무광으로 설정하게 하는거  
+Layers를 추가해서 Layer Blend노드에 이름을 달아 줄수 있다.  
+
+### Layers의 Blender Type
+Weight Blender 이 meterial layer를 다른 meterial레이어와 블렌딩할 수 있게함   
+
+## Extra
+meterial뒤에 있는 inst 진짜 메테리얼이 아니라는 뜻임  
+우클릭 -> 부모찾기 -> master이라는 이름이 붙은 메테리얼이 나옴 이게 진짜 머티리얼을 만드는거  
 
 detail의 mobility에 
 static으로 게임 시작전에 미리 조명 설정과 같은 작업을 마칠수있다
 Stationary로 객체를움직일 수는 없지만 밝기 같은 건 바꿀수 있다. 
 Movealbe로 모든 걸 변경할수있게 할수있다.
 
+
+
+
 ### 루멘은 Moveable로 가장 잘 돌아간다
 
 바닥이 있지만 떨어질때는 객체의 에디터를 켜서 왼쪽위 콜리전에서 시각화를 작동시키고 디테일에서 collison에서 z축 설정해준다 -10정도
+
+
+
+
 
 ## Udemy Edition
 Inheritance(상속)
