@@ -1,6 +1,8 @@
 ctrl + alt + f11 라이브코드 컴파일 단축키  
 F11(몰입모드) -> 삼선 -> 캡쳐
 가끔은 껏다키면 해결 되는게 있다...  
+Shift + 1~4 모드선택 단축키  
+우클릭 + c 확대 +z 축소  
 ## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌  
 
 ![어떻게 돌아가는지](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/b9c39707-07d6-4cf7-81dd-da71b37da42b)  
@@ -181,6 +183,13 @@ Transform이 있는 Actor Component이고 다른 Scene Component에도 접근할
 
 <details>
 <summary><p>$\huge{\rm{\color{#6580DD}Unreal Editor}}$</p></p> </summary>
+
+<details>
+<summary><p>$\huge{LandScpae Mode}$</p> </summary>
+
+## Number of Components
+땅 크기 조
+
 
 <details>
 <summary><p>$\huge{Light}$</p> </summary>
