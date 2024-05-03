@@ -1,8 +1,12 @@
+<details>
+<summary><p>$\huge{\rm{\color{#6580DD}단축키}}$</p> </summary>
 ctrl + alt + f11 라이브코드 컴파일 단축키  
 F11(몰입모드) -> 삼선 -> 캡쳐
 가끔은 껏다키면 해결 되는게 있다...  
 Shift + 1~4 모드선택 단축키  
 우클릭 + c 확대 +z 축소  
+</details>
+  
 ## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌  
 
 ![어떻게 돌아가는지](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/b9c39707-07d6-4cf7-81dd-da71b37da42b)  
@@ -124,6 +128,19 @@ ex) UE_LOG(LogTemp, Display, TEXT("Here's My String: %s  %f"),*MyString, MoveDis
 ## 컴포넌트에 접근
 UPhysicsHandleComponent* PhysicsHandle = GetOwner() -> FindComponentByClass<UPhysicsHandleComponent>();
 컴포넌트에서 physicshandle컴포넌트에 접근하게하는 코드
+
+## 데이터 테이블
+```cpp
+UDataTable* MyDataTable; // 데이터 테이블 할당 받은 변수
+FItemData* ItemData = MyDataTable->FindRow<FItemData>(FName("Item001"), TEXT("LookupItemData"));
+if (ItemData)
+{
+    FString ItemName = ItemData->ItemName;
+    float Price = ItemData->Price;
+}
+```
+초기 값을 세팅하는데 도움을 주는 역할을 해줌
+게임중에 값을 바꾸고자 한다면 별도록 로직을 만들어야함
 </details>
 
 <details>
