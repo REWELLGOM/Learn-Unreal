@@ -99,10 +99,7 @@ FString FVector와 같은 구조체가 있는 경우 점 연산자(.) 사용
 
 </details>
 
-
-## 클래스 자체에서 함수를 가져올때 ::를 사용
-
-## HitResult
+### HitResult
 HitResult.Location 객체 중심으로의 1미터 반경의 구체를 건듦  
 HitResult.ImpactLocation 객체의 표면을 건듦
 
@@ -125,11 +122,11 @@ DrawDebugSphere(GetWorld(), End, 10, 10, FColor::Blue,true, 5);
 display warning Error로 색깔을 다르게하여 경고와 에러를 잘보이게 할수있음
 ex) UE_LOG(LogTemp, Display, TEXT("Here's My String: %s  %f"),*MyString, MoveDistance);
 
-## 컴포넌트에 접근
+### 컴포넌트에 접근
 UPhysicsHandleComponent* PhysicsHandle = GetOwner() -> FindComponentByClass<UPhysicsHandleComponent>();
 컴포넌트에서 physicshandle컴포넌트에 접근하게하는 코드
 
-## 데이터 테이블 
+### 데이터 테이블 
 csv 혹은 엑셀로 작성한 파일을 작성해서 언리얼에 연결해야함  
 초기 값을 세팅하는데 도움을 주는 역할을 해줌(캐릭 생성, 퀘스트 내용, 적 사전 등등)  
 게임중에 값을 바꾸고자 한다면 별도록 로직을 만들어야함  
