@@ -129,7 +129,10 @@ ex) UE_LOG(LogTemp, Display, TEXT("Here's My String: %s  %f"),*MyString, MoveDis
 UPhysicsHandleComponent* PhysicsHandle = GetOwner() -> FindComponentByClass<UPhysicsHandleComponent>();
 컴포넌트에서 physicshandle컴포넌트에 접근하게하는 코드
 
-## 데이터 테이블
+## 데이터 테이블 
+csv 혹은 엑셀로 작성한 파일을 작성해서 언리얼에 연결해야함  
+초기 값을 세팅하는데 도움을 주는 역할을 해줌(캐릭 생성, 퀘스트 내용, 적 사전 등등)  
+게임중에 값을 바꾸고자 한다면 별도록 로직을 만들어야함  
 ```cpp
 UDataTable* MyDataTable; // 데이터 테이블 할당 받은 변수
 FItemData* ItemData = MyDataTable->FindRow<FItemData>(FName("Item001"), TEXT("LookupItemData"));
@@ -139,8 +142,7 @@ if (ItemData)
     float Price = ItemData->Price;
 }
 ```
-초기 값을 세팅하는데 도움을 주는 역할을 해줌
-게임중에 값을 바꾸고자 한다면 별도록 로직을 만들어야함
+
 </details>
 
 <details>
