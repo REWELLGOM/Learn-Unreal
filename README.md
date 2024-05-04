@@ -215,14 +215,21 @@ Transform이 있는 Actor Component이고 다른 Scene Component에도 접근할
 <details>
 <summary><p>$\huge{Foliage Mode}$</p> </summary>
 
-### 파일에세 foliage 파일에 있는 파일을 넣어야함  
+### 파일에세 foliage 파일에 있는 파일을 넣어야함    
 
-### 에셋파일안에 초록색 테두리있는 걸 더블클릭 후 wind를 활성화하면 풀이 바람에 날리는 것처럼 만들 수 있다. 
+### 에셋파일안에 초록색 테두리있는 걸 더블클릭 후 wind를 활성화하면 풀이 바람에 날리는 것처럼 만들 수 있다.   
+
+### foliage파일의 에셋을 더블클릭해서 align to normal을 체크해제하면 경사에서도 위로 솟아나게한다    
 
 ## Paint Density
-숫자가 작을수록 생성될 에셋의 간격이 줄어듦  
+숫자가 작을수록 생성될 에셋의 간격이 줄어듦    
 
+## collision
+block all로 충돌하는 모든 사물을 부딛치게 할 수 있음  
 
+## 성능 조절
+edit -> project setting -> rendering -> shadow map으로 변경  
+anti-aliasing에서 TSR -> TAA  
 
 </details>
 
