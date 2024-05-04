@@ -217,6 +217,8 @@ Transform이 있는 Actor Component이고 다른 Scene Component에도 접근할
 
 ### 파일에세 foliage 파일에 있는 파일을 넣어야함  
 
+### 에셋파일안에 초록색 테두리있는 걸 더블클릭 후 wind를 활성화하면 풀이 바람에 날리는 것처럼 만들 수 있다. 
+
 ## Paint Density
 숫자가 작을수록 생성될 에셋의 간격이 줄어듦  
 
