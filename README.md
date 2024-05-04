@@ -209,8 +209,24 @@ Transform이 있는 Actor Component이고 다른 Scene Component에도 접근할
 ## Pint
 레이어의 +표시 눌러서 weightlender로 서로 겹칠때 혼합되게 할지 Non weightblender로 그위에 그냥 쌓이게 할지 정할수 있음  
 
+
+</details>
+
+<details>
+<summary><p>$\huge{Foliage Mode}$</p> </summary>
+
+### 파일에세 foliage 파일에 있는 파일을 넣어야함  
+
+## Paint Density
+숫자가 작을수록 생성될 에셋의 간격이 줄어듦  
+
+
+
+</details>
+
 <details>
 <summary><p>$\huge{Light}$</p> </summary>
+
 
 ## static
 게임에서 빛에 관련된걸 바꿀수 없게함(성능향상에 도움)  
