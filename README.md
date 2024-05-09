@@ -201,6 +201,37 @@ Transform이 있는 Actor Component이고 다른 Scene Component에도 접근할
 <summary><p>$\huge{\rm{\color{#6580DD}Unreal Editor}}$</p></p> </summary>
 
 <details>
+<summary><p>$\huge{PostProcessVolume}$</p> </summary>
+
+It is used to adjust the atmosphere, brightness, and color in the game
+게임에서의 분위기 밝기 색감등을 조정할때 쓰인다
+
+### Temperture
+온도 색감을 조절함   
+
+### Bloom
+부스스한 느낌 뽀샤시함을 조절  
+
+### Exposure
+최대 최소 밝기 조절  
+최소 밝기 조절해서 어둡게 밝게 조절할 수 도있음  
+
+### Globl
+
+#### Saturation
+채도를 조절할수있음  
+#### Contrast
+대비를 조절  
+#### Gamma
+밝기를 조절  
+
+### Extra
+Sunlight에서 Lightshaft의 BloomScale을 조정해서 빛의 밝기를 조절할 수 있다.  
+
+
+</details>
+
+<details>
 <summary><p>$\huge{LandScpae Mode}$</p> </summary>
 
 ## Number of Components
