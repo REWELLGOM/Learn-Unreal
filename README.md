@@ -28,6 +28,10 @@ Shift + 1~4 모드선택 단축키
 ### 5. PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Grabber". Node:  Release Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter  
 이유: Grabber'라는 속성에 접근하려 했으나 그 객체가 존재하지 않을 때 발생 
 해결: 삭제하고다시 추가해주니 해결되었다. 
+
+### 6.LandScpae가 안보여요  
+이유: UE5부터 추가된 partition world에서 어떤 지역을 보여줄지 지정을 안해서 게임 실행모드때만 보이고 에디터에서 안보이는 거다  
+해결: World Partition에서 보여줄만큼 드래그 -> 우클릭 Load region From Selection을 하면 보인다  
 </details>
 
 
