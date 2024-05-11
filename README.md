@@ -210,6 +210,8 @@ Transform이 있는 Actor Component이고 다른 Scene Component에도 접근할
 It is used to adjust the atmosphere, brightness, and color in the game
 게임에서의 분위기 밝기 색감등을 조정할때 쓰인다
 
+Infinite Extend를 활성화해서 박스 내부에서만 적용되는게 아닌 레벨 전체에 영향을 주도록 설정할 수 있다  
+
 ### Temperture
 온도 색감을 조절함   
 
