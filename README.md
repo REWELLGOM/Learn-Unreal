@@ -220,7 +220,7 @@ It is used to adjust the atmosphere, brightness, and color in the game
 최대 최소 밝기 조절  
 최소 밝기 조절해서 어둡게 밝게 조절할 수 도있음  
 
-### Globl
+### Global
 
 #### Saturation
 채도를 조절할수있음  
@@ -229,8 +229,8 @@ It is used to adjust the atmosphere, brightness, and color in the game
 #### Gamma
 밝기를 조절  
 
-### Extra
-Sunlight에서 Lightshaft의 BloomScale을 조정해서 빛의 밝기를 조절할 수 있다.  
+## Extra
+Sunlight에서 Lightshaft의 BloomScale을 조절해서 물체로 인해서 빛이 가려질때 보이는 빛줄기 강도를 조절할 수 있다.    
 
 
 </details>
