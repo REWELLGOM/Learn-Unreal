@@ -14,8 +14,32 @@ Shift + 1~4 모드선택 단축키
 라이브 코딩은 에디터를 껏다가 키면 초기화 되기때문에 에디터를 키기전에 vscode에서 crlt shift b 로 빌드작업 하고 에디터를 닫아놓은체로 전체를 컴파일해야함  
 
 <details>
+<summary><p>$\huge{\rm{\color{#6580DD}MATH}}$</p> </summary>
+
+### A(1,3,5)  B(-1,5,-7)  
+
+### If A watching B
+(1+1,3-5,5+7)  
+->(2,-2,12)  
+### If B watching A
+(-1-1,5-3,-7-5)  
+->(-2,2,-12)  
+
+### Multiplied
+Ax2 = (1x2,3x2,5x2) -> (2,6,10)  
+
+### Length
+(A^2+B^2)^(1/2)  
+{(1^2,3^2,5^2) + (-1^2,5^2,-7^2)}^(1/2)  
+A to B
+![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/7f1c8598-323f-4d32-93b1-d5d69094fcb4)
+<details>
+  
 <summary><p>$\huge{\rm{\color{#6580DD}ERROR LIST}}$</p> </summary>
 
+
+
+</details>
 
 ### 1.캐릭터가 움직이지를 않음 
 해결: 게임 모드 설정과 껏다 켰다를 하니 해결됨
