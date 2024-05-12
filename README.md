@@ -37,6 +37,18 @@ A to B
 
 ### Vector Normalized
 크기가 1인 단위 벡터를 말함
+
+## Rotation
+
+### Roll
+X축에 대한 회전  
+
+### Pitch
+Y축에 대한 회전  
+
+### Yaw
+Z축에 대한  회전  
+
 </details>
 
 
