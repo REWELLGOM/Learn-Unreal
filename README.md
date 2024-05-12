@@ -29,7 +29,6 @@ Shift + 1~4 모드선택 단축키
 Ax2 = (1x2,3x2,5x2) -> (2,6,10)  
 
 ### Length
-![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/ce0ad2a7-f8ee-4d2f-b0ab-66a246e00a5e)
 (A^2+B^2)^(1/2)  
 {(1^2,3^2,5^2) + (-1^2,5^2,-7^2)}^(1/2)  
 A to B
