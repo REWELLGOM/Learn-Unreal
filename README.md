@@ -31,8 +31,6 @@ Ax2 = (1x2,3x2,5x2) -> (2,6,10)
 ### Length
 (A^2+B^2)^(1/2)  
 {(1^2,3^2,5^2) + (-1^2,5^2,-7^2)}^(1/2)  
-A to B
-![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/7f1c8598-323f-4d32-93b1-d5d69094fcb4)
 
 ### Vector Normalized
 크기가 1인 단위 벡터를 말함
