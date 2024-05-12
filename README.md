@@ -344,8 +344,14 @@ Movealbe로 모든 걸 변경할수있게 할수있다.
 
 ![Uploading image.png…]()
 
+</details>
 
+<details>
+<summary><p>$\huge{About Actor}$</p> </summary>
 
+### Packed Level Actor
+액터를 여러개 선택 -> 우클릭 -> level -> create packed level한후 pivot type으로 중심점을 잡아준다
+</details>
 
 ## Udemy Edition
 Inheritance(상속)
