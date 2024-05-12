@@ -29,17 +29,22 @@ Shift + 1~4 모드선택 단축키
 Ax2 = (1x2,3x2,5x2) -> (2,6,10)  
 
 ### Length
+![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/ce0ad2a7-f8ee-4d2f-b0ab-66a246e00a5e)
 (A^2+B^2)^(1/2)  
 {(1^2,3^2,5^2) + (-1^2,5^2,-7^2)}^(1/2)  
 A to B
 ![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/7f1c8598-323f-4d32-93b1-d5d69094fcb4)
+
+### Vector Normalized
+크기가 1인 단위 벡터를 말함
+</details>
+
+
 <details>
-  
 <summary><p>$\huge{\rm{\color{#6580DD}ERROR LIST}}$</p> </summary>
 
 
 
-</details>
 
 ### 1.캐릭터가 움직이지를 않음 
 해결: 게임 모드 설정과 껏다 켰다를 하니 해결됨
