@@ -380,7 +380,7 @@ Movealbe로 모든 걸 변경할수있게 할수있다.
 
 바닥이 있지만 떨어질때는 객체의 에디터를 켜서 왼쪽위 콜리전에서 시각화를 작동시키고 디테일에서 collison에서 z축 설정해준다 -10정도
 
-![Uploading image.png…]()
+![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/850c41d5-34e3-4d96-b208-20743d4c393d)
 
 </details>
 
@@ -408,4 +408,14 @@ Composiotion
 ![예시](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/1c6e35c5-797e-4399-9464-fe5577a7b2d8)
 
 </details>
+
+## Parent Class Child Class
+
+자식 클래스는 부모 클래스로부터 함수를 물려 받을 수 있다.자식 클래스들은 이를 받아서 재정의(OverRide)할 수 있다.  
+
+포인터가 자식을 가르키고 있을 경우 함수를 호출하면 그 자식 클래스의 함수를 불러옴  
+부모 변수에 대한 포인터는 자식 클래스가 부모 클래스에서 상속하는 경우 자식 클래스의 개체를 가르킬수 있음  
+
+![Uploading image.png…]()
+
 
