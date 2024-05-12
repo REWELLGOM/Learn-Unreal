@@ -347,10 +347,13 @@ Movealbe로 모든 걸 변경할수있게 할수있다.
 </details>
 
 <details>
-<summary><p>$\huge{About Actor}$</p> </summary>
+<summary><p>$\huge{Level}$</p> </summary>
 
 ### Packed Level Actor
 액터를 여러개 선택 -> 우클릭 -> level -> create packed level한후 pivot type으로 중심점을 잡아준다
+
+### Create LevelInstance
+레벨을 만들어서 다른 맵에 있던 사물을 가져올 수 있다.  
 </details>
 
 ## Udemy Edition
