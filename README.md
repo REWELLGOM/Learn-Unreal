@@ -373,7 +373,7 @@ static으로 게임 시작전에 미리 조명 설정과 같은 작업을 마칠
 Stationary로 객체를움직일 수는 없지만 밝기 같은 건 바꿀수 있다. 
 Movealbe로 모든 걸 변경할수있게 할수있다.
 
-
+</details>
 
 
 ### 루멘은 Moveable로 가장 잘 돌아간다
@@ -381,8 +381,6 @@ Movealbe로 모든 걸 변경할수있게 할수있다.
 바닥이 있지만 떨어질때는 객체의 에디터를 켜서 왼쪽위 콜리전에서 시각화를 작동시키고 디테일에서 collison에서 z축 설정해준다 -10정도
 
 ![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/850c41d5-34e3-4d96-b208-20743d4c393d)
-
-</details>
 
 <details>
 <summary><p>$\huge{Level}$</p> </summary>
@@ -392,6 +390,9 @@ Movealbe로 모든 걸 변경할수있게 할수있다.
 
 ### Create LevelInstance
 레벨을 만들어서 다른 맵에 있던 사물을 가져올 수 있다.  
+
+## DataTable
+https://velog.io/@lsm1017/How-to-make-DataTable-In-UE5
 </details>
 
 ## Udemy Edition
