@@ -392,8 +392,10 @@ Movealbe로 모든 걸 변경할수있게 할수있다.
 ### Create LevelInstance
 레벨을 만들어서 다른 맵에 있던 사물을 가져올 수 있다.  
 </details>
+
 ## DataTable
 https://velog.io/@lsm1017/How-to-make-DataTable-In-UE5
+
 </details>
 
 ## Udemy Edition
