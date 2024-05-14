@@ -182,6 +182,15 @@ if (ItemData)
 }
 ```
 
+### UCLASS()
+이런게 UE5의 리플렉션 시스템에 참여할 수 있게해줌  
+
+### Super::
+범위 해상도 연산자를 의미  
+EX)
+Super::BeginPlay(); BeginPlay함수 부모버 호출  
+
+PrimaryActorTick.bCanEverTick = true; 틱함수를 자동으로 반복할것인가 yes라는 뜻  
 </details>
 
 <details>
