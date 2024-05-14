@@ -418,10 +418,15 @@ Composiotion
 
 자식 클래스는 부모 클래스로부터 함수를 물려 받을 수 있다.자식 클래스들은 이를 받아서 재정의(OverRide)할 수 있다.  
 
-포인터가 자식을 가르키고 있을 경우 함수를 호출하면 그 자식 클래스의 함수를 불러옴  
 부모 변수에 대한 포인터는 자식 클래스가 부모 클래스에서 상속하는 경우 자식 클래스의 개체를 가르킬수 있음  
+
+포인터가 자식을 가르키고 있을 경우 함수를 호출하면 그 자식 클래스의 함수를 불러옴  
+
 
 ![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/9ccfb03c-e339-46d5-8bad-a10d95a3a253)
 </details>
+
+상하관계
+![image](https://github.com/REWELLGOM/Learn-Unreal/assets/129605750/74aee1d3-74e5-4101-858b-f359cacbf5c9)
 
 
