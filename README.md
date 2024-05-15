@@ -1,10 +1,12 @@
 <details>
-<summary><p>$\huge{\rm{\color{#6580DD}단축키}}$</p> </summary>
+<summary><p>$\huge{\rm{\color{#6580DD}TIP}}$</p> </summary>
 ctrl + alt + f11 라이브코드 컴파일 단축키  
 F11(몰입모드) -> 삼선 -> 캡쳐
 가끔은 껏다키면 해결 되는게 있다...  
 Shift + 1~4 모드선택 단축키  
 우클릭 + c 확대 +z 축소  
+visualstudio에서 ctrl + shift + spacebar하면 해당 코드의 정보창을 띄울 수 있다.  
+정보창에 = 값  라면 기본값이 내장되어 있다는 의미이다.  
 </details>
   
 ## 만약 에디터가 이전 변경사항이 적용 안되어있다면 에디터를 닫고 vscode에서 shift+ctrl+b로 다시 돌리고 열면 됌  
@@ -191,6 +193,9 @@ EX)
 Super::BeginPlay(); BeginPlay함수 부모버 호출  
 
 PrimaryActorTick.bCanEverTick = true; 틱함수를 자동으로 반복할것인가 yes라는 뜻  
+
+### String
+C스타일 문자열을 제공하기위해 string타입 변수를 이용할때 *를 붙여야한다.   
 </details>
 
 <details>
