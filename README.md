@@ -227,6 +227,8 @@ Project Tile 자체에서 만든 함수를 map의 BluePrint에서 실행 핀을 
 
 플레이어 물리충돌을 처리하기위해 charactor movmnet로부터 두개의 moveupdatecomponent로 충돌 처리 그리고 캐릭터의 회전을 위해 get actor rotation을 만듦  
 
+### Add Actor World Offset
+오프셋을 저장해서 위치정보를 제공해주는거  
 
 </details>
 
