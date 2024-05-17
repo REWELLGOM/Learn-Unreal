@@ -75,6 +75,13 @@ sin함수로 사인파를 이용할때 이용
 ### 6.LandScpae가 안보여요  
 이유: UE5부터 추가된 partition world에서 어떤 지역을 보여줄지 지정을 안해서 게임 실행모드때만 보이고 에디터에서 안보이는 거다  
 해결: World Partition에서 보여줄만큼 드래그 -> 우클릭 Load region From Selection을 하면 보인다  
+
+### 7. 코드에서 작성한 함수가 BluePrint에서 못찾겠어요  
+```cpp
+UFUNCTION(BlueprintCallable, Category="Color")
+    void ChangeColor(FLinearColor NewColor);
+```
+클래스의 명으로 먼저찾고 그뒤에 실행 핀으로 함수를 불러올 수 있다.  
 </details>
 
 
