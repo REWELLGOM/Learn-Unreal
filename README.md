@@ -196,6 +196,16 @@ PrimaryActorTick.bCanEverTick = true; 틱함수를 자동으로 반복할것인�
 
 ### String
 C스타일 문자열을 제공하기위해 string타입 변수를 이용할때 *를 붙여야한다.   
+
+### DeltaTime
+게임속 1초의 시간이라고 생각하면된다  
+
+사용 예시)
+```cpp
+AddActorWorldOffset(FVector(MoveMent * DeltaTime, 0.f, 0.f));
+```
+어떤 프레임이든 똑같이 이동 하기위해서 DeltaTime을 곱함  
+
 </details>
 
 <details>
