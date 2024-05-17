@@ -99,6 +99,10 @@ int32는 32비트인 정수를 나타낸것이다
 FVector는  벡터를 선언할때
 FString은 문자열을 선언할때
 
+### FileName::FileName() in cpp code
+생성자 역할로 여기서 값을 주게해도 된다.  
+아니면 함수 옆에 : var(value) 해도된다.  
+
 <details>
 <summary><p>$\huge{\rm{\color{#6580DD}ABOUT FUNCTION}}$</p></p> </summary>
 
