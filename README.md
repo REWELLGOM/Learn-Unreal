@@ -92,9 +92,8 @@ UFUNCTION(BlueprintCallable, Category="Color")
 FHitResult HitResult;
 
 ### UPROPERTY
-변수위에 UPROPERTY()를 작성  
-EditAnywhere을 괄호안에 넣으면 어디서든 에디터에서 값을 변경할 수 있다는것  
-헤더파일에 작성했던 그 변수들이 객체의 디테일에 담겨서 나옴  
+https://velog.io/@lsm1017/About-UPROPERTY
+
 
 ### UFUNCTION
 함수위에 UFUNCTION()은 함수를 보이게하는 것
