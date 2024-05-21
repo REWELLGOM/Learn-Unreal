@@ -276,7 +276,13 @@ Scene Component
 Transform이 있는 Actor Component이고 다른 Scene Component에도 접근할 수 있다
 서로 접근이 가능하다면 디테일에 같은 섹션에 있다.
 
+## BoxCollision
+Collision preset조절을 통해서 어떤 물체에 따라 인식이 다르도록 설정할 수 있다.  
+OverlapAllDynamic으로 모든것을 인식하게 할 수 있다.  
+Generate Overlap Events를 활설화 해야함  
+
 ------------------------------------------------------------------------
+
 </details>
   
 <details>
@@ -312,6 +318,7 @@ Infinite Extend를 활성화해서 박스 내부에서만 적용되는게 아닌
 ## Extra
 Sunlight에서 Lightshaft의 BloomScale을 조절해서 물체로 인해서 빛이 가려질때 보이는 빛줄기 강도를 조절할 수 있다.    
 
+--------------------------------------------------------------------------
 
 </details>
 
@@ -324,6 +331,7 @@ Sunlight에서 Lightshaft의 BloomScale을 조절해서 물체로 인해서 빛�
 ## Pint
 레이어의 +표시 눌러서 weightlender로 서로 겹칠때 혼합되게 할지 Non weightblender로 그위에 그냥 쌓이게 할지 정할수 있음  
 
+---------------------------------------------------------------
 
 </details>
 
@@ -345,6 +353,8 @@ block all로 충돌하는 모든 사물을 부딛치게 할 수 있음
 ## 성능 조절
 edit -> project setting -> rendering -> shadow map으로 변경  
 anti-aliasing에서 TSR -> TAA  
+
+----------------------------------------------------------------------
 
 </details>
 
@@ -391,6 +401,7 @@ Tempeture로 태양의 색깔을 바꿀 수 있음
 intensity는 밝기 조절
 attenuation 반경 설정(설정해서 성능에 도움을 줄수있음)
 
+-----------------------------------------------------------
 
 </details>
 
@@ -413,6 +424,8 @@ static으로 게임 시작전에 미리 조명 설정과 같은 작업을 마칠
 Stationary로 객체를움직일 수는 없지만 밝기 같은 건 바꿀수 있다. 
 Movealbe로 모든 걸 변경할수있게 할수있다.
 
+-------------------------------------------------------
+
 </details>
 
 
@@ -434,6 +447,8 @@ Movealbe로 모든 걸 변경할수있게 할수있다.
 
 ## DataTable
 https://velog.io/@lsm1017/How-to-make-DataTable-In-UE5
+
+--------------------------------------------------------
 
 </details>
 
