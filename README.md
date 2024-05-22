@@ -219,6 +219,19 @@ AddActorWorldOffset(FVector(MoveMent * DeltaTime, 0.f, 0.f));
 ```
 어떤 프레임이든 똑같이 이동 하기위해서 DeltaTime을 곱함  
 
+## for( : )
+```cpp
+TArray<AActor* > Actors;
+GetOverlappingActors(Actors);
+for(AActor* Actor : Actors)
+{
+
+}
+```
+TArray의 모든 액터를 순회함   
+반복할 때마다 배열의 각 액터에 대한 포인터를 가져와 사용  
+모든 컬렉션 타입(여러 개 저장하는 자료형 타입)  
+
 </details>
 
 <details>
