@@ -298,6 +298,15 @@ Collision preset조절을 통해서 어떤 물체에 따라 인식이 다르도�
 OverlapAllDynamic으로 모든것을 인식하게 할 수 있다.  
 Generate Overlap Events를 활설화 해야함  
 
+## Static Mesh Component
+USceneComponent가 있고 하위에 UStaticMeshComponent가 있다  
+
+USceneComponent는 고유의 변환이 있고 다른 구성 요소와 연결할 수 있다.  
+
+UStaticMeshCompoenent는 고유한 변환이 있고 다른 구성요소에 열결할 수 있고 정적인 메쉬가 있다.    
+
+스태틱메쉬를 DefaultSceneRoot에 갔다놓으면 루트(장면 구성요소)로 변하게됨  
+
 ------------------------------------------------------------------------
 
 </details>
