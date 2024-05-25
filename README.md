@@ -82,6 +82,13 @@ UFUNCTION(BlueprintCallable, Category="Color")
     void ChangeColor(FLinearColor NewColor);
 ```
 클래스의 명으로 먼저찾고 그뒤에 실행 핀으로 함수를 불러올 수 있다.  
+
+### 8. 헤더파일 서순 틀렸어요
+Error: #include found after .generated.h file - the .generated.h file should always be the last #include in a header  
+```cpp
+#include "TriggerComponent.generated.h"
+```
+이게 가장 마지막이어야함
 </details>
 
 
