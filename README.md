@@ -236,6 +236,16 @@ TArray의 모든 액터를 순회함
 ## FRotator::ZeroRotator
 기울이고 돌리는 힘을 0으로 하는것  
 
+## 다른 파일 함수에 접근하기
+1.선언하기
+```cpp
+UMover* Mover;
+```
+2.가져오기
+```cpp
+Mover -> SetShouldMove(true);
+```
+
 </details>
 
 <details>
