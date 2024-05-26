@@ -107,10 +107,60 @@ https://velog.io/@lsm1017/About-UPROPERTY
 BlueprintCallable 블루프린트에서 엑세스 할 수 있게 해줌
 이때 에디터와 라이브 코드를 끄고 vscode에서 별도로 빌드를 돌린후 파일에 들어가서 켜야함  
 
-### TYPE
-int32는 32비트인 정수를 나타낸것이다
-FVector는  벡터를 선언할때
-FString은 문자열을 선언할때
+<details>
+<summary><p>$\huge{\rm{\color{#5ad7b7}Type}}$</p></p> </summary>
+int32는 32비트인 정수를 나타낸것이다  
+
+#### FVector  
+X, Y, Z 세 가지 축을 기준으로 좌표를 정의
+
+#### FRotator  
+피치(Pitch), 요(Yaw), 롤(Roll) 세 가지 축을 기준으로 회전을 정의
+
+#### FQuat
+회전을 쿼터니언으로 나타내
+회전 벡터와 스칼라 값을 사용   
+복합 회전에 유리  -> 짐벌락(한축의 자유도 줄어드는 현상) 방지
+
+#### FTransform
+객체의 위치, 회전, 그리고 스케일을 나타냄   
+
+```cpp
+FTransform Transform(FRotator(0.0f, 45.0f, 0.0f), FVector(100.0f, 200.0f, 300.0f), FVector(1.0f, 1.0f, 1.0f));
+```
+
+#### FString
+문자열 조작 기능을 제공  
+
+<details>
+<summary><p>AActor</p></summary>
+게임 월드에 배치될 수 있으며, 위치, 회전, 크기 등의 속성을 가짐
+
+
+## GetActorLocation()  
+액터의 현재 위치를 반환  
+
+## SetActorLocation(FVector NewLocation)  
+액터의 위치를 설정  
+
+## GetActorRotation()
+액터의 현재 회전을 반환  
+
+## SetActorRotation(FRotator NewRotation)
+액터의 회전을 설정합니다.
+
+## AddActorLocalOffset(FVector DeltaLocation)
+액터의 로컬 좌표를 기준으로 위치를 변경합니다.
+
+## AddActorLocalRotation(FRotator DeltaRotation)
+액터의 로컬 좌표를 기준으로 회전을 변경합니다.
+
+---------------------------------------------------------------
+
+</details>
+
+</details>
+
 
 ### FileName::FileName() in cpp code
 생성자 역할로 여기서 값을 주게해도 된다.  
@@ -118,6 +168,8 @@ FString은 문자열을 선언할때
 
 <details>
 <summary><p>$\huge{\rm{\color{#6580DD}ABOUT FUNCTION}}$</p></p> </summary>
+
+
 
 ## GetSafeNormal()
 주어진 벡터를 그 크기로 나누어 단위 벡터를 생성
@@ -134,6 +186,8 @@ a와 b 사이의 거리를 구해준
 매프레임마다 안에 있는 코드들을 호출해줌  
 올바르게 반복문을 만들었어도 tick함수 내에서 만든거라면 프리징 현상이 일어날 수 있으니 사용할때 극.구.조.심  
 매프레임 log를 찍는것은 오류가 안남  
+
+</details>
 
 <details>
 <summary>Trace </summary>
@@ -161,7 +215,6 @@ FPS게임이나 오브젝트를 잡을때
 일반적으로 포인터가 있는 경우 화살표 연산자(->)  
 FString FVector와 같은 구조체가 있는 경우 점 연산자(.) 사용  
 
-</details>
 
 ### HitResult
 HitResult.Location 객체 중심으로의 1미터 반경의 구체를 건듦  
@@ -254,6 +307,7 @@ Mover -> SetShouldMove(true);
 ```
 
 </details>
+
 
 <details>
 <summary><p>$\huge{\rm{\color{#6580DD}BLUE PRINT}}$</p></p> </summary>
