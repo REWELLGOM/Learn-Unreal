@@ -162,10 +162,6 @@ FTransform Transform(FRotator(0.0f, 45.0f, 0.0f), FVector(100.0f, 200.0f, 300.0f
 </details>
 
 
-### FileName::FileName() in cpp code
-생성자 역할로 여기서 값을 주게해도 된다.  
-아니면 함수 옆에 : var(value) 해도된다.  
-
 <details>
 <summary><p>$\huge{\rm{\color{#6580DD}ABOUT FUNCTION}}$</p></p> </summary>
 
@@ -190,7 +186,7 @@ a와 b 사이의 거리를 구해준
 </details>
 
 <details>
-<summary>Trace </summary>
+<summary><p>$\huge{\rm{\color{#5ad7b7}Trace}}$</p></p> </summary>
 
 ### 라인트레이스 
 섬세하게 탐지할때 주로 사용
@@ -211,18 +207,18 @@ FPS게임이나 오브젝트를 잡을때
 
 </details>
 
-### Extra
-일반적으로 포인터가 있는 경우 화살표 연산자(->)  
-FString FVector와 같은 구조체가 있는 경우 점 연산자(.) 사용  
 
-
-### HitResult
+### FHitResult
+FHitResult HitResult;
 HitResult.Location 객체 중심으로의 1미터 반경의 구체를 건듦  
 HitResult.ImpactLocation 객체의 표면을 건듦
 
 ### UPROPERTY
-UPROPERTY(EditAnywhere)은 어디서든 볼수있고 편집할수이다는 것
-UPROPERTY(VisibleAnywhere)은 어디서나 볼수만 있다는 
+UPROPERTY(EditAnywhere)   
+어디서든 볼수있고 편집할수이다는 것  
+
+UPROPERTY(VisibleAnywhere)    
+어디서나 볼수만 있다
 
 ### DebugDraw
 DrawDebugLine(GetWorld(), Start, End, FColor::Red);
@@ -243,19 +239,11 @@ ex) UE_LOG(LogTemp, Display, TEXT("Here's My String: %s  %f"),*MyString, MoveDis
 UPhysicsHandleComponent* PhysicsHandle = GetOwner() -> FindComponentByClass<UPhysicsHandleComponent>();
 컴포넌트에서 physicshandle컴포넌트에 접근하게하는 코드
 
-### 데이터 테이블 
-csv 혹은 엑셀로 작성한 파일을 작성해서 언리얼에 연결해야함  
-초기 값을 세팅하는데 도움을 주는 역할을 해줌(캐릭 생성, 퀘스트 내용, 적 사전 등등)  
-게임중에 값을 바꾸고자 한다면 별도록 로직을 만들어야함  
-```cpp
-UDataTable* MyDataTable; // 데이터 테이블 할당 받은 변수
-FItemData* ItemData = MyDataTable->FindRow<FItemData>(FName("Item001"), TEXT("LookupItemData"));
-if (ItemData)
-{
-    FString ItemName = ItemData->ItemName;
-    float Price = ItemData->Price;
-}
-```
+
+<details>
+<summary><p>$\huge{\rm{\color{#6580DD}Extra}}$</p></p> </summary>
+일반적으로 포인터가 있는 경우 화살표 연산자(->)  
+FString FVector와 같은 구조체가 있는 경우 점 연산자(.) 사용  
 
 ### UCLASS()
 이런게 UE5의 리플렉션 시스템에 참여할 수 있게해줌  
@@ -306,7 +294,14 @@ UMover* Mover;
 Mover -> SetShouldMove(true);
 ```
 
+### FileName::FileName() in cpp code
+생성자 역할로 여기서 값을 주게해도 된다.  
+아니면 함수 옆에 : var(value) 해도된다.  
+
 </details>
+
+</details>
+
 
 
 <details>
