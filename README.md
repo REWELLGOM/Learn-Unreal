@@ -93,6 +93,25 @@ Error: #include found after .generated.h file - the .generated.h file should alw
 
 
 <details>
+<summary><p>$\huge{\rm{\color{#6580DD}Header File}}$</p> </summary>
+
+<details>
+<summary><p>$\huge{\rm{\color{#5ad7b7}Collision}}$</p></p> </summary>
+
+How to make CapsuleCollision
+```cpp
+#include "Components/CapsuleComponent.h"  
+UCapsuleComponent* Capsule
+```
+https://www.unrealengine.com/en-US/search?x=0&y=0&filter=Documentation&keyword=UCapsuleComponent
+
+</details>
+
+
+</details>
+
+
+<details>
 <summary><p>$\huge{\rm{\color{#6580DD}C++}}$</p></p> </summary>
 
 ### FCollisionShape Sphere = FCollisionShape::MakeSphere(GrabRadius);
@@ -187,6 +206,7 @@ a와 b 사이의 거리를 구해준
 
 <details>
 <summary><p>$\huge{\rm{\color{#5ad7b7}Trace}}$</p></p> </summary>
+
 
 ### 라인트레이스 
 섬세하게 탐지할때 주로 사용
