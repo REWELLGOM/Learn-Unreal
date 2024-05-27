@@ -207,18 +207,22 @@ FPS게임이나 오브젝트를 잡을때
 
 </details>
 
+<details>
+<summary><p>$\huge{\rm{\color{#5ad7b7}With BluePrint}}$</p></p> </summary>
+```cpp
+Capsule = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Capsule"));
+SetRootComponent(Capsule);
+```
+root로 설정할수 있게해줌
+
+
+</details>
 
 ### FHitResult
 FHitResult HitResult;
 HitResult.Location 객체 중심으로의 1미터 반경의 구체를 건듦  
 HitResult.ImpactLocation 객체의 표면을 건듦
 
-### UPROPERTY
-UPROPERTY(EditAnywhere)   
-어디서든 볼수있고 편집할수이다는 것  
-
-UPROPERTY(VisibleAnywhere)    
-어디서나 볼수만 있다
 
 ### DebugDraw
 DrawDebugLine(GetWorld(), Start, End, FColor::Red);
@@ -245,13 +249,12 @@ UPhysicsHandleComponent* PhysicsHandle = GetOwner() -> FindComponentByClass<UPhy
 일반적으로 포인터가 있는 경우 화살표 연산자(->)  
 FString FVector와 같은 구조체가 있는 경우 점 연산자(.) 사용  
 
-### UCLASS()
-이런게 UE5의 리플렉션 시스템에 참여할 수 있게해줌  
-
 ### Super::
 범위 해상도 연산자를 의미  
 EX)
-Super::BeginPlay(); BeginPlay함수 부모버 호출  
+```cpp
+Super::BeginPlay(); //BeginPlay함수 부모 호출  
+```
 
 PrimaryActorTick.bCanEverTick = true; 틱함수를 자동으로 반복할것인가 yes라는 뜻  
 
@@ -277,8 +280,8 @@ for(AActor* Actor : Actors)
 }
 ```
 TArray의 모든 액터를 순회함   
-반복할 때마다 배열의 각 액터에 대한 포인터를 가져와 사용  
-모든 컬렉션 타입(여러 개 저장하는 자료형 타입)  
+반복할 때마다 배열의 각 액터에 대한 포인터를 가져와 사용   
+모든 컬렉션 타입(여러 개 저장하는 자료형 타입)    
 
 
 ## FRotator::ZeroRotator
@@ -295,8 +298,8 @@ Mover -> SetShouldMove(true);
 ```
 
 ### FileName::FileName() in cpp code
-생성자 역할로 여기서 값을 주게해도 된다.  
-아니면 함수 옆에 : var(value) 해도된다.  
+생성자 역할로 여기서 값을 주게해도 된다.   
+아니면 함수 옆에 : var(value) 해도된다.    
 
 </details>
 
