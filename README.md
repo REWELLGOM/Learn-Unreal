@@ -100,9 +100,12 @@ Error: #include found after .generated.h file - the .generated.h file should alw
 
 How to make CapsuleCollision
 ```cpp
-#include "Components/CapsuleComponent.h"  
-UCapsuleComponent* Capsule
+UPROPERTY(VisibleAnywhere)
+class UCapsuleComponent* Capsule;
 ```
+## class가 반드시 있어야함  
+해당 헤더파일은 cpp폴더에 include함  
+Unreal Doc  
 https://www.unrealengine.com/en-US/search?x=0&y=0&filter=Documentation&keyword=UCapsuleComponent
 
 </details>
