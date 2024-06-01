@@ -98,7 +98,7 @@ Error: #include found after .generated.h file - the .generated.h file should alw
 <details>
 <summary><p>$\huge{\rm{\color{#5ad7b7}Collision}}$</p></p> </summary>
 
-How to make CapsuleCollision
+### include "Components/CapsuleComponent.h"
 ```cpp
 class UCapsuleComponent; //전역 변수처럼 선언하면 다음 선언할때 class 안써도됌  
 
@@ -110,6 +110,12 @@ class UCapsuleComponent* Capsule;
 Unreal Doc  
 https://www.unrealengine.com/en-US/search?x=0&y=0&filter=Documentation&keyword=UCapsuleComponent
 
+### include "Components/SkeletalMeshComponent.h"
+```cpp
+
+BirdMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("BirdMesh"));
+BirdMesh->SetupAttachment(GetRootComponent()); //루트구성요소 받아와서 거기에 적용시키는 코드  
+```
 </details>
 
 
