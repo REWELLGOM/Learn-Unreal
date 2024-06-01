@@ -100,6 +100,8 @@ Error: #include found after .generated.h file - the .generated.h file should alw
 
 How to make CapsuleCollision
 ```cpp
+class UCapsuleComponent; //전역 변수처럼 선언하면 다음 선언할때 class 안써도됌  
+
 UPROPERTY(VisibleAnywhere)
 class UCapsuleComponent* Capsule;
 ```
