@@ -1,6 +1,11 @@
 # Notion
 I move My Doc to Notion   
 https://www.notion.so/Learn-Unreal5-ab13ec499586437ebd93bb2c8a43e24f?pvs=4
+
+<details>
+<summary><p>$\huge{\rm{\color{#6580DD}Previous Doc}}$</p> </summary>
+
+
 <details>
 <summary><p>$\huge{\rm{\color{#6580DD}TIP}}$</p> </summary>
 ctrl + alt + f11 라이브코드 컴파일 단축키  
@@ -580,6 +585,8 @@ Movealbe로 모든 걸 변경할수있게 할수있다.
 https://velog.io/@lsm1017/How-to-make-DataTable-In-UE5
 
 --------------------------------------------------------
+
+</details>
 
 </details>
 
