@@ -6,6 +6,14 @@ Ongoing Project
 https://www.notion.so/TREASURE-522085e8560d4d26b2edc7f852380198  
 
 <details>
+<summary><p>$\huge{\rm{\color{#6580DD}Update List}}$</p> </summary>
+
+How to Move Actor  
+https://velog.io/@lsm1017/%EC%95%A1%ED%84%B0-%EC%99%95%EB%B3%B5%EC%9C%BC%EB%A1%9C-%EC%9B%80%EC%A7%81%EC%9D%B4%EA%B8%B0-%EA%B5%AC%ED%98%84-DistGetSafeNormal  
+</details>
+
+
+<details>
 <summary><p>$\huge{\rm{\color{#6580DD}Previous Doc}}$</p> </summary>
 
 
