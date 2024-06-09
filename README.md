@@ -10,6 +10,10 @@ https://www.notion.so/TREASURE-522085e8560d4d26b2edc7f852380198
 
 How to Move Actor  
 https://velog.io/@lsm1017/%EC%95%A1%ED%84%B0-%EC%99%95%EB%B3%B5%EC%9C%BC%EB%A1%9C-%EC%9B%80%EC%A7%81%EC%9D%B4%EA%B8%B0-%EA%B5%AC%ED%98%84-DistGetSafeNormal  
+
+How to make swingwing object
+https://velog.io/@lsm1017/%ED%86%B5%EB%82%98%EB%AC%B4-%ED%95%A8%EC%A0%95-%EB%A7%8C%EB%93%A4%EA%B8%B0
+
 </details>
 
 
