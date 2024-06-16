@@ -14,6 +14,9 @@ https://velog.io/@lsm1017/%EC%95%A1%ED%84%B0-%EC%99%95%EB%B3%B5%EC%9C%BC%EB%A1%9
 How to make swingwing object and curve
 https://velog.io/@lsm1017/%ED%86%B5%EB%82%98%EB%AC%B4-%ED%95%A8%EC%A0%95-%EB%A7%8C%EB%93%A4%EA%B8%B0
 
+How to import asset from store
+https://velog.io/@lsm1017/%EC%97%90%EC%85%8B-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0-ga7d0icx
+
 </details>
 
 
