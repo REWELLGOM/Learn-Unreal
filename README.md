@@ -23,6 +23,9 @@ https://velog.io/@lsm1017/%ED%8C%8C%EC%9D%BC-%EB%B2%84%EC%A0%84%EB%B0%94%EA%BE%B
 EnhancedInput(BluePrint ver | Cpp ver)
 https://velog.io/@lsm1017/%ED%96%A5%EC%83%81%EB%90%9C-%EC%9E%85%EB%A0%A5EnhancedInput
 
+How to Set Pawn Camera
+https://velog.io/@lsm1017/Pawn%EC%B9%B4%EB%A9%94%EB%9D%BC-%EC%A1%B0%EC%A0%95%ED%95%98%EA%B8%B0
+
 </details>
 
 
