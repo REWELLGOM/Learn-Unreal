@@ -32,6 +32,8 @@ https://velog.io/@lsm1017/Character-%EC%A1%B0%EC%9E%91%EB%A7%8C%EB%93%A4%EA%B8%B
 About Character Rotate
 https://velog.io/@lsm1017/%EC%BA%90%EB%A6%AD%ED%84%B0-%ED%9A%8C%EC%A0%84%EC%97%90-%EA%B4%80%ED%95%98%EC%97%AC
 
+When Get Build Error
+https://velog.io/@lsm1017/%EB%B9%8C%EB%93%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%AC%EC%9D%84%EB%95%8C
 </details>
 
 
