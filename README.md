@@ -29,6 +29,9 @@ https://velog.io/@lsm1017/Pawn%EC%B9%B4%EB%A9%94%EB%9D%BC-%EC%A1%B0%EC%A0%95%ED%
 How to make Character move
 https://velog.io/@lsm1017/Character-%EC%A1%B0%EC%9E%91%EB%A7%8C%EB%93%A4%EA%B8%B0
 
+About Character Rotate
+https://velog.io/@lsm1017/%EC%BA%90%EB%A6%AD%ED%84%B0-%ED%9A%8C%EC%A0%84%EC%97%90-%EA%B4%80%ED%95%98%EC%97%AC
+
 </details>
 
 
