@@ -34,8 +34,11 @@ https://velog.io/@lsm1017/%EC%BA%90%EB%A6%AD%ED%84%B0-%ED%9A%8C%EC%A0%84%EC%97%9
 
 When Get Build Error
 https://velog.io/@lsm1017/%EB%B9%8C%EB%93%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%AC%EC%9D%84%EB%95%8C
-</details>
 
+How to attach animation to asset
+https://velog.io/@lsm1017/%EC%97%90%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
+
+</details>
 
 <details>
 <summary><p>$\huge{\rm{\color{#6580DD}Previous Doc}}$</p> </summary>
