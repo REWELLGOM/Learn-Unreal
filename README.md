@@ -38,6 +38,9 @@ https://velog.io/@lsm1017/%EB%B9%8C%EB%93%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%
 How to attach animation to asset
 https://velog.io/@lsm1017/%EC%97%90%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
 
+How to change animation
+https://velog.io/@lsm1017/%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%84%ED%99%98-%EB%A7%8C%EB%93%A4%EA%B8%B0
+
 </details>
 
 <details>
