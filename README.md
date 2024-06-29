@@ -44,6 +44,9 @@ https://velog.io/@lsm1017/%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%8
 How to change animation(c++ version)
 https://velog.io/@lsm1017/%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%84%ED%99%98%ED%95%98%EA%B8%B0%EC%BD%94%EB%93%9C%EB%B2%84%EC%A0%84
 
+How to make custom Animation
+https://www.youtube.com/watch?v=tnZv7KQPai0&t=58s
+
 </details>
 
 <details>
