@@ -50,6 +50,9 @@ https://www.youtube.com/watch?v=tnZv7KQPai0&t=58s
 Implementing Foot Height Adjustment on Stairs 
 https://velog.io/@lsm1017/%EC%9E%90%EC%97%B0%EC%8A%A4%EB%9F%AC%EC%9A%B4-%EA%B2%BD%EC%82%AC%EC%98%A4%EB%A5%B4%EA%B8%B0feat.RIG
 
+How to give collision to Skeleton Asset
+https://velog.io/@lsm1017/%EC%8A%A4%EC%BC%88%EB%A0%88%ED%86%A4%EB%A9%94%EC%89%AC%EC%97%90-collision%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0
+
 </details>
 
 <details>
