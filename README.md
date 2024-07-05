@@ -59,6 +59,9 @@ https://velog.io/@lsm1017/%EC%86%8C%ED%99%98%EC%82%AC-%EC%9B%90%EB%A6%ACDelegate
 How to combine Animation
 https://velog.io/@lsm1017/%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%EC%9D%84-%ED%95%A9%EC%B9%98%EB%8A%94-%EB%B2%95Blend-Space
 
+How to make simple chasing Ai
+https://velog.io/@lsm1017/%EA%B0%84%EB%8B%A8%ED%95%9C-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%AB%92%EB%8A%94-AI%EB%A7%8C%EB%93%A4%EA%B8%B0
+
 </details>
 
 <details>
