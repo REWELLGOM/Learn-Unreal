@@ -71,6 +71,9 @@ https://velog.io/@lsm1017/%EB%91%90%EA%B0%80%EC%A7%80%EC%9D%98-%EC%95%A0%EB%8B%8
 How to make teleporter
 https://velog.io/@lsm1017/%ED%85%94%EB%A0%88%ED%8F%AC%ED%8A%B8-%EC%9E%A5%EC%B9%98-%EB%A7%8C%EB%93%A4%EA%B8%B0
 
+How to make facing to player character
+https://velog.io/@lsm1017/%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EB%94%B0%EB%9D%BC%EC%84%9C-%EB%B0%94%EB%9D%BC%EB%B3%B4%EB%8A%94-%EC%BA%90%EB%A6%AD%ED%84%B0%EB%A7%8C%EB%93%A4%EA%B8%B0
+
 </details>
 
 <details>
