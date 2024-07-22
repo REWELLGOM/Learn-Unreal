@@ -83,6 +83,9 @@ https://velog.io/@lsm1017/%EC%98%A4%EB%A5%98-%ED%8C%8C%EC%9D%BC-%EC%86%8C%EC%8A%
 How to fix BlendAnim Error
 https://velog.io/@lsm1017/ERROR%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EB%AF%B9%EC%8A%A4%EC%97%90%EC%84%9C-%EC%83%9D%EA%B8%B4-%EC%98%A4%EB%A5%98
 
+How to make gun
+https://velog.io/@lsm1017/%EC%B4%9D%EB%A7%8C%EB%93%A4%EA%B8%B0-Part1
+
 </details>
 
 <details>
