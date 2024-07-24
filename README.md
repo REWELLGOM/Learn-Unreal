@@ -86,6 +86,9 @@ https://velog.io/@lsm1017/ERROR%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EB
 How to make gun
 https://velog.io/@lsm1017/%EC%B4%9D%EB%A7%8C%EB%93%A4%EA%B8%B0-Part1
 
+How to make gun(reloading)
+https://velog.io/@lsm1017/%EC%B4%9D%EB%A7%8C%EB%93%A4%EA%B8%B0Pt2%EC%9E%A5%EC%A0%84
+
 </details>
 
 <details>
