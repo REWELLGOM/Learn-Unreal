@@ -92,6 +92,9 @@ https://velog.io/@lsm1017/%EC%B4%9D%EB%A7%8C%EB%93%A4%EA%B8%B0Pt2%EC%9E%A5%EC%A0
 How to make facing NPC
 https://velog.io/@lsm1017/%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%B3%90%EB%8B%A4%EB%B3%B4%EB%8A%94-NPC
 
+How to make grenade
+https://velog.io/@lsm1017/%EC%88%98%EB%A5%98%ED%83%84-%EC%97%B0%EC%87%84%ED%8F%AD%EB%B0%9C-%EC%9D%B4%EC%8A%88
+
 </details>
 
 <details>
